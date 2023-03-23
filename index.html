@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-block">
+            <div class="head-block">
+                <h1 class="header-text">Enter time</h1>
+                <div class="input-btn-block">
+                    <input type="text" id="user_input_time"  class="user-time-input">
+                    <button id="button" onclick='consoleLogFunction()'>Enter</button>
+                </div>
+            </div>
+            <div class="reverse-timer-block">
+                <div class="circle-container">
+                    <div class="semicircle-red" id="semicircle-red"></div>
+                    <div class="semicircle-blue" id="semicircle-blue"></div>
+                    <div class="semicircle-white" id="semicircle-white"></div>
+                    
+                </div>
+                <div class="semicircle-black"></div>
+                <div class="timer-container">
+                    <div class="timer" id="timer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
